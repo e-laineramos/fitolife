@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitolife</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-success text-white text-center py-3">
+        <h1>Fitolife</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#beneficios">Benefícios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo -->
+    <div class="container mt-4">
+
+        <!-- Seção Sobre -->
+        <div id="sobre" class="mb-4">
+            <h2>Sobre</h2>
+            <img src="imagens/plantas-medicinais.jpg" class="img-fluid mb-3" alt="Plantas Medicinais" style="max-width: 600px;">
+            <p>A fitoterapia é a prática de utilizar plantas medicinais para tratar doenças e promover a saúde. Através de suas propriedades terapêuticas, as ervas podem ajudar a aliviar sintomas e melhorar a qualidade de vida.</p>
+        </div>
+
+        <!-- Seção Benefícios -->
+        <div id="beneficios" class="mb-4">
+            <h2>Benefícios da Fitoterapia</h2>
+            <img src="imagens/beneficios-fitoterapia.jpeg" class="img-fluid mb-3" alt="Benefícios da Fitoterapia" style="max-width: 600px;">
+            <p>A fitoterapia oferece diversos benefícios, incluindo:</p>
+            <ul>
+                <li>Tratamento natural e menos invasivo.</li>
+                <li>Redução de efeitos colaterais em comparação com medicamentos sintéticos.</li>
+                <li>Fortalecimento do sistema imunológico.</li>
+                <li>Melhoria do bem-estar geral e da qualidade de vida.</li>
+            </ul>
+        </div>
+
+        <!-- Seção Contato -->
+        <div id="contato" class="mb-4">
+            <h2>Contato</h2>
+            <p>Se você tiver dúvidas ou quiser mais informações sobre fitoterapia, entre em contato conosco pelo e-mail: contato@fitolife.com.</p>
+        </div>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="ano"></span> Fitolife. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Atualiza o ano automaticamente
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
